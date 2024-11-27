@@ -65,6 +65,7 @@ class Cell {
       size / 2
     );
 
+    // Map offset to mouse X position
     offsetX = map(mouseX, 0, width, -size / 2, size / 2);
 
     let offsetY = map(
@@ -75,6 +76,7 @@ class Cell {
       size / 2
     );
 
+    // Map offset to mouse Y position
     offsetY = map(mouseY, 0, height, -size / 2, size / 2);
 
     let offsetZ = map(
